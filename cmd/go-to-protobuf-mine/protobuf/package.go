@@ -203,11 +203,11 @@ func (p *protobufPackage) GoPackageName() string {
 }
 
 func (p *protobufPackage) ImportPath() string {
-	return filepath.Join(p.PackagePath, "generated.proto")
+	return filepath.Join(p.PackagePath, "generated-test.proto")
 }
 
 func (p *protobufPackage) OutputPath() string {
-	return filepath.Join(p.PackagePath, "generated.pb.go")
+	return filepath.Join(p.PackagePath, "generated-test.pb.go")
 }
 
 var (
