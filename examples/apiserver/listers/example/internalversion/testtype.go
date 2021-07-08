@@ -19,10 +19,10 @@ limitations under the License.
 package internalversion
 
 import (
+	example "github.com/Kotodian/code-generator/examples/apiserver/apis/example"
 	"k8s.io/apimachinery/pkg/api/errors"
 	"k8s.io/apimachinery/pkg/labels"
 	"k8s.io/client-go/tools/cache"
-	example "k8s.io/code-generator/examples/apiserver/apis/example"
 )
 
 // TestTypeLister helps list TestTypes.

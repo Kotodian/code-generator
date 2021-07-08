@@ -19,8 +19,8 @@ limitations under the License.
 package example
 
 import (
-	v1 "k8s.io/code-generator/examples/MixedCase/informers/externalversions/example/v1"
-	internalinterfaces "k8s.io/code-generator/examples/MixedCase/informers/externalversions/internalinterfaces"
+	v1 "github.com/Kotodian/code-generator/examples/MixedCase/informers/externalversions/example/v1"
+	internalinterfaces "github.com/Kotodian/code-generator/examples/MixedCase/informers/externalversions/internalinterfaces"
 )
 
 // Interface provides access to each of this group's versions.

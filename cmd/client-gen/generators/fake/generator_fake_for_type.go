@@ -26,8 +26,8 @@ import (
 	"k8s.io/gengo/namer"
 	"k8s.io/gengo/types"
 
-	"k8s.io/code-generator/cmd/client-gen/generators/util"
-	"k8s.io/code-generator/cmd/client-gen/path"
+	"github.com/Kotodian/code-generator/cmd/client-gen/generators/util"
+	"github.com/Kotodian/code-generator/cmd/client-gen/path"
 )
 
 // genFakeForType produces a file for each top-level type.

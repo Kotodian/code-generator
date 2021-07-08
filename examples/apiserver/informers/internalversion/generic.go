@@ -21,11 +21,11 @@ package internalversion
 import (
 	"fmt"
 
+	example "github.com/Kotodian/code-generator/examples/apiserver/apis/example"
+	example2 "github.com/Kotodian/code-generator/examples/apiserver/apis/example2"
+	example3io "github.com/Kotodian/code-generator/examples/apiserver/apis/example3.io"
 	schema "k8s.io/apimachinery/pkg/runtime/schema"
 	cache "k8s.io/client-go/tools/cache"
-	example "k8s.io/code-generator/examples/apiserver/apis/example"
-	example2 "k8s.io/code-generator/examples/apiserver/apis/example2"
-	example3io "k8s.io/code-generator/examples/apiserver/apis/example3.io"
 )
 
 // GenericInformer is type of SharedIndexInformer which will locate and delegate to other

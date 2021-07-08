@@ -23,13 +23,13 @@ import (
 	sync "sync"
 	time "time"
 
+	versioned "github.com/Kotodian/code-generator/examples/MixedCase/clientset/versioned"
+	example "github.com/Kotodian/code-generator/examples/MixedCase/informers/externalversions/example"
+	internalinterfaces "github.com/Kotodian/code-generator/examples/MixedCase/informers/externalversions/internalinterfaces"
 	v1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	runtime "k8s.io/apimachinery/pkg/runtime"
 	schema "k8s.io/apimachinery/pkg/runtime/schema"
 	cache "k8s.io/client-go/tools/cache"
-	versioned "k8s.io/code-generator/examples/MixedCase/clientset/versioned"
-	example "k8s.io/code-generator/examples/MixedCase/informers/externalversions/example"
-	internalinterfaces "k8s.io/code-generator/examples/MixedCase/informers/externalversions/internalinterfaces"
 )
 
 // SharedInformerOption defines the functional option type for SharedInformerFactory.

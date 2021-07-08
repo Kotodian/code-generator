@@ -29,8 +29,8 @@ import (
 	"k8s.io/gengo/types"
 	"k8s.io/klog/v2"
 
-	applygenargs "k8s.io/code-generator/cmd/applyconfiguration-gen/args"
-	clientgentypes "k8s.io/code-generator/cmd/client-gen/types"
+	applygenargs "github.com/Kotodian/code-generator/cmd/applyconfiguration-gen/args"
+	clientgentypes "github.com/Kotodian/code-generator/cmd/client-gen/types"
 )
 
 const (

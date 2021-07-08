@@ -24,8 +24,8 @@ import (
 	"k8s.io/gengo/types"
 	"k8s.io/klog/v2"
 
-	"k8s.io/code-generator/cmd/client-gen/generators/util"
-	clientgentypes "k8s.io/code-generator/cmd/client-gen/types"
+	"github.com/Kotodian/code-generator/cmd/client-gen/generators/util"
+	clientgentypes "github.com/Kotodian/code-generator/cmd/client-gen/types"
 )
 
 // applyConfigurationGenerator produces apply configurations for a given GroupVersion and type.

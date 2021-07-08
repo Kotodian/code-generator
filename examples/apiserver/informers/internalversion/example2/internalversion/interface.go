@@ -19,7 +19,7 @@ limitations under the License.
 package internalversion
 
 import (
-	internalinterfaces "k8s.io/code-generator/examples/apiserver/informers/internalversion/internalinterfaces"
+	internalinterfaces "github.com/Kotodian/code-generator/examples/apiserver/informers/internalversion/internalinterfaces"
 )
 
 // Interface provides access to all the informers in this group version.

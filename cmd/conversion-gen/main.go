@@ -93,9 +93,9 @@ import (
 	"k8s.io/gengo/args"
 	"k8s.io/klog/v2"
 
-	generatorargs "k8s.io/code-generator/cmd/conversion-gen/args"
-	"k8s.io/code-generator/cmd/conversion-gen/generators"
-	"k8s.io/code-generator/pkg/util"
+	generatorargs "github.com/Kotodian/code-generator/cmd/conversion-gen/args"
+	"github.com/Kotodian/code-generator/cmd/conversion-gen/generators"
+	"github.com/Kotodian/code-generator/pkg/util"
 )
 
 func main() {

@@ -21,12 +21,12 @@ package internalversion
 import (
 	"fmt"
 
+	exampleinternalversion "github.com/Kotodian/code-generator/examples/apiserver/clientset/internalversion/typed/example/internalversion"
+	secondexampleinternalversion "github.com/Kotodian/code-generator/examples/apiserver/clientset/internalversion/typed/example2/internalversion"
+	thirdexampleinternalversion "github.com/Kotodian/code-generator/examples/apiserver/clientset/internalversion/typed/example3.io/internalversion"
 	discovery "k8s.io/client-go/discovery"
 	rest "k8s.io/client-go/rest"
 	flowcontrol "k8s.io/client-go/util/flowcontrol"
-	exampleinternalversion "k8s.io/code-generator/examples/apiserver/clientset/internalversion/typed/example/internalversion"
-	secondexampleinternalversion "k8s.io/code-generator/examples/apiserver/clientset/internalversion/typed/example2/internalversion"
-	thirdexampleinternalversion "k8s.io/code-generator/examples/apiserver/clientset/internalversion/typed/example3.io/internalversion"
 )
 
 type Interface interface {

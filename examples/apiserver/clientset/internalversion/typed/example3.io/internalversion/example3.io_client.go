@@ -19,8 +19,8 @@ limitations under the License.
 package internalversion
 
 import (
+	"github.com/Kotodian/code-generator/examples/apiserver/clientset/internalversion/scheme"
 	rest "k8s.io/client-go/rest"
-	"k8s.io/code-generator/examples/apiserver/clientset/internalversion/scheme"
 )
 
 type ThirdExampleInterface interface {

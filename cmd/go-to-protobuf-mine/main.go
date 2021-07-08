@@ -21,8 +21,8 @@ package main
 import (
 	goflag "flag"
 
+	"github.com/Kotodian/code-generator/cmd/go-to-protobuf-mine/protobuf"
 	flag "github.com/spf13/pflag"
-	"k8s.io/code-generator/cmd/go-to-protobuf/protobuf"
 	"k8s.io/klog/v2"
 )
 

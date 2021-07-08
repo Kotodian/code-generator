@@ -19,9 +19,9 @@ limitations under the License.
 package fake
 
 import (
+	internalversion "github.com/Kotodian/code-generator/examples/apiserver/clientset/internalversion/typed/example2/internalversion"
 	rest "k8s.io/client-go/rest"
 	testing "k8s.io/client-go/testing"
-	internalversion "k8s.io/code-generator/examples/apiserver/clientset/internalversion/typed/example2/internalversion"
 )
 
 type FakeSecondExample struct {

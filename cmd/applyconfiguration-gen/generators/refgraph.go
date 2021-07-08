@@ -19,7 +19,7 @@ package generators
 import (
 	"k8s.io/gengo/types"
 
-	"k8s.io/code-generator/cmd/client-gen/generators/util"
+	"github.com/Kotodian/code-generator/cmd/client-gen/generators/util"
 )
 
 // refGraph maps existing types to the package the corresponding applyConfig types will be generated in

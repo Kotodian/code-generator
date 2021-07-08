@@ -19,8 +19,8 @@ package args
 import (
 	"fmt"
 
+	statusgenerators "github.com/Kotodian/code-generator/cmd/prerelease-lifecycle-gen/prerelease-lifecycle-generators"
 	"github.com/spf13/pflag"
-	statusgenerators "k8s.io/code-generator/cmd/prerelease-lifecycle-gen/prerelease-lifecycle-generators"
 	"k8s.io/gengo/args"
 )
 

@@ -21,6 +21,7 @@ package fake
 import (
 	"context"
 
+	examplev1 "github.com/Kotodian/code-generator/examples/crd/apis/example/v1"
 	autoscalingv1 "k8s.io/api/autoscaling/v1"
 	v1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	labels "k8s.io/apimachinery/pkg/labels"
@@ -28,7 +29,6 @@ import (
 	types "k8s.io/apimachinery/pkg/types"
 	watch "k8s.io/apimachinery/pkg/watch"
 	testing "k8s.io/client-go/testing"
-	examplev1 "k8s.io/code-generator/examples/crd/apis/example/v1"
 )
 
 // FakeClusterTestTypes implements ClusterTestTypeInterface

@@ -24,7 +24,7 @@ import (
 
 	"github.com/spf13/pflag"
 
-	"k8s.io/code-generator/cmd/client-gen/types"
+	"github.com/Kotodian/code-generator/cmd/client-gen/types"
 )
 
 func TestGVPackageFlag(t *testing.T) {

@@ -21,10 +21,10 @@ package externalversions
 import (
 	"fmt"
 
+	v1 "github.com/Kotodian/code-generator/examples/crd/apis/example/v1"
+	example2v1 "github.com/Kotodian/code-generator/examples/crd/apis/example2/v1"
 	schema "k8s.io/apimachinery/pkg/runtime/schema"
 	cache "k8s.io/client-go/tools/cache"
-	v1 "k8s.io/code-generator/examples/crd/apis/example/v1"
-	example2v1 "k8s.io/code-generator/examples/crd/apis/example2/v1"
 )
 
 // GenericInformer is type of SharedIndexInformer which will locate and delegate to other

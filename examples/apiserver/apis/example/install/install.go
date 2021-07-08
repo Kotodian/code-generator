@@ -19,10 +19,10 @@ limitations under the License.
 package install
 
 import (
+	"github.com/Kotodian/code-generator/examples/apiserver/apis/example"
+	v1 "github.com/Kotodian/code-generator/examples/apiserver/apis/example/v1"
 	"k8s.io/apimachinery/pkg/runtime"
 	utilruntime "k8s.io/apimachinery/pkg/util/runtime"
-	"k8s.io/code-generator/examples/apiserver/apis/example"
-	"k8s.io/code-generator/examples/apiserver/apis/example/v1"
 )
 
 // Install registers the API group and adds types to a scheme

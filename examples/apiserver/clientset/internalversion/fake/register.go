@@ -19,14 +19,14 @@ limitations under the License.
 package fake
 
 import (
+	exampleinternalversion "github.com/Kotodian/code-generator/examples/apiserver/apis/example"
+	secondexampleinternalversion "github.com/Kotodian/code-generator/examples/apiserver/apis/example2"
+	thirdexampleinternalversion "github.com/Kotodian/code-generator/examples/apiserver/apis/example3.io"
 	v1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	runtime "k8s.io/apimachinery/pkg/runtime"
 	schema "k8s.io/apimachinery/pkg/runtime/schema"
 	serializer "k8s.io/apimachinery/pkg/runtime/serializer"
 	utilruntime "k8s.io/apimachinery/pkg/util/runtime"
-	exampleinternalversion "k8s.io/code-generator/examples/apiserver/apis/example"
-	secondexampleinternalversion "k8s.io/code-generator/examples/apiserver/apis/example2"
-	thirdexampleinternalversion "k8s.io/code-generator/examples/apiserver/apis/example3.io"
 )
 
 var scheme = runtime.NewScheme()

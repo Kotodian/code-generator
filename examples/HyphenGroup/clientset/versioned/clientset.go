@@ -21,10 +21,10 @@ package versioned
 import (
 	"fmt"
 
+	examplegroupv1 "github.com/Kotodian/code-generator/examples/HyphenGroup/clientset/versioned/typed/example/v1"
 	discovery "k8s.io/client-go/discovery"
 	rest "k8s.io/client-go/rest"
 	flowcontrol "k8s.io/client-go/util/flowcontrol"
-	examplegroupv1 "k8s.io/code-generator/examples/HyphenGroup/clientset/versioned/typed/example/v1"
 )
 
 type Interface interface {

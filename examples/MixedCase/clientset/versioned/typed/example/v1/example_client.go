@@ -19,9 +19,9 @@ limitations under the License.
 package v1
 
 import (
+	v1 "github.com/Kotodian/code-generator/examples/MixedCase/apis/example/v1"
+	"github.com/Kotodian/code-generator/examples/MixedCase/clientset/versioned/scheme"
 	rest "k8s.io/client-go/rest"
-	v1 "k8s.io/code-generator/examples/MixedCase/apis/example/v1"
-	"k8s.io/code-generator/examples/MixedCase/clientset/versioned/scheme"
 )
 
 type ExampleV1Interface interface {

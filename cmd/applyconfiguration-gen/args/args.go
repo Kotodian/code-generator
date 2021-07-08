@@ -24,7 +24,7 @@ import (
 	"k8s.io/gengo/args"
 	"k8s.io/gengo/types"
 
-	codegenutil "k8s.io/code-generator/pkg/util"
+	codegenutil "github.com/Kotodian/code-generator/pkg/util"
 )
 
 // ClientGenArgs is a wrapper for arguments to applyconfiguration-gen.

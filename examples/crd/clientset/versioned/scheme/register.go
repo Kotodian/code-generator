@@ -19,13 +19,13 @@ limitations under the License.
 package scheme
 
 import (
+	examplev1 "github.com/Kotodian/code-generator/examples/crd/apis/example/v1"
+	secondexamplev1 "github.com/Kotodian/code-generator/examples/crd/apis/example2/v1"
 	v1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	runtime "k8s.io/apimachinery/pkg/runtime"
 	schema "k8s.io/apimachinery/pkg/runtime/schema"
 	serializer "k8s.io/apimachinery/pkg/runtime/serializer"
 	utilruntime "k8s.io/apimachinery/pkg/util/runtime"
-	examplev1 "k8s.io/code-generator/examples/crd/apis/example/v1"
-	secondexamplev1 "k8s.io/code-generator/examples/crd/apis/example2/v1"
 )
 
 var Scheme = runtime.NewScheme()

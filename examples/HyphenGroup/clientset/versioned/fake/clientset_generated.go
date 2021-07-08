@@ -19,14 +19,14 @@ limitations under the License.
 package fake
 
 import (
+	clientset "github.com/Kotodian/code-generator/examples/HyphenGroup/clientset/versioned"
+	examplegroupv1 "github.com/Kotodian/code-generator/examples/HyphenGroup/clientset/versioned/typed/example/v1"
+	fakeexamplegroupv1 "github.com/Kotodian/code-generator/examples/HyphenGroup/clientset/versioned/typed/example/v1/fake"
 	"k8s.io/apimachinery/pkg/runtime"
 	"k8s.io/apimachinery/pkg/watch"
 	"k8s.io/client-go/discovery"
 	fakediscovery "k8s.io/client-go/discovery/fake"
 	"k8s.io/client-go/testing"
-	clientset "k8s.io/code-generator/examples/HyphenGroup/clientset/versioned"
-	examplegroupv1 "k8s.io/code-generator/examples/HyphenGroup/clientset/versioned/typed/example/v1"
-	fakeexamplegroupv1 "k8s.io/code-generator/examples/HyphenGroup/clientset/versioned/typed/example/v1/fake"
 )
 
 // NewSimpleClientset returns a clientset that will respond with the provided objects.

@@ -19,12 +19,12 @@ limitations under the License.
 package scheme
 
 import (
+	examplegroupv1 "github.com/Kotodian/code-generator/examples/HyphenGroup/apis/example/v1"
 	v1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	runtime "k8s.io/apimachinery/pkg/runtime"
 	schema "k8s.io/apimachinery/pkg/runtime/schema"
 	serializer "k8s.io/apimachinery/pkg/runtime/serializer"
 	utilruntime "k8s.io/apimachinery/pkg/util/runtime"
-	examplegroupv1 "k8s.io/code-generator/examples/HyphenGroup/apis/example/v1"
 )
 
 var Scheme = runtime.NewScheme()

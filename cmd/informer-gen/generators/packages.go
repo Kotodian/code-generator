@@ -28,10 +28,10 @@ import (
 	"k8s.io/gengo/types"
 	"k8s.io/klog/v2"
 
-	"k8s.io/code-generator/cmd/client-gen/generators/util"
-	clientgentypes "k8s.io/code-generator/cmd/client-gen/types"
-	informergenargs "k8s.io/code-generator/cmd/informer-gen/args"
-	genutil "k8s.io/code-generator/pkg/util"
+	"github.com/Kotodian/code-generator/cmd/client-gen/generators/util"
+	clientgentypes "github.com/Kotodian/code-generator/cmd/client-gen/types"
+	informergenargs "github.com/Kotodian/code-generator/cmd/informer-gen/args"
+	genutil "github.com/Kotodian/code-generator/pkg/util"
 )
 
 // NameSystems returns the name system used by the generators in this package.

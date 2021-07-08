@@ -30,7 +30,7 @@ import (
 
 	flag "github.com/spf13/pflag"
 
-	"k8s.io/code-generator/pkg/util"
+	"github.com/Kotodian/code-generator/pkg/util"
 	"k8s.io/gengo/args"
 	"k8s.io/gengo/generator"
 	"k8s.io/gengo/namer"

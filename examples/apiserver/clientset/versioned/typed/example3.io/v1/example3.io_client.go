@@ -19,9 +19,9 @@ limitations under the License.
 package v1
 
 import (
+	v1 "github.com/Kotodian/code-generator/examples/apiserver/apis/example3.io/v1"
+	"github.com/Kotodian/code-generator/examples/apiserver/clientset/versioned/scheme"
 	rest "k8s.io/client-go/rest"
-	v1 "k8s.io/code-generator/examples/apiserver/apis/example3.io/v1"
-	"k8s.io/code-generator/examples/apiserver/clientset/versioned/scheme"
 )
 
 type ThirdExampleV1Interface interface {

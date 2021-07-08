@@ -32,8 +32,8 @@ import (
 
 	"k8s.io/klog/v2"
 
-	conversionargs "k8s.io/code-generator/cmd/conversion-gen/args"
-	genutil "k8s.io/code-generator/pkg/util"
+	conversionargs "github.com/Kotodian/code-generator/cmd/conversion-gen/args"
+	genutil "github.com/Kotodian/code-generator/pkg/util"
 )
 
 // These are the comment tags that carry parameters for conversion generation.

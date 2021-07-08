@@ -21,8 +21,8 @@ import (
 	"sort"
 	"strings"
 
-	clientgentypes "k8s.io/code-generator/cmd/client-gen/types"
-	codegennamer "k8s.io/code-generator/pkg/namer"
+	clientgentypes "github.com/Kotodian/code-generator/cmd/client-gen/types"
+	codegennamer "github.com/Kotodian/code-generator/pkg/namer"
 	"k8s.io/gengo/generator"
 	"k8s.io/gengo/namer"
 	"k8s.io/gengo/types"

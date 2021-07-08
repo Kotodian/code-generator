@@ -23,9 +23,9 @@ package v1
 import (
 	unsafe "unsafe"
 
+	example2 "github.com/Kotodian/code-generator/examples/apiserver/apis/example2"
 	conversion "k8s.io/apimachinery/pkg/conversion"
 	runtime "k8s.io/apimachinery/pkg/runtime"
-	example2 "k8s.io/code-generator/examples/apiserver/apis/example2"
 )
 
 func init() {

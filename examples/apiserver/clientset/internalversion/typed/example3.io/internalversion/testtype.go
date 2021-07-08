@@ -22,12 +22,12 @@ import (
 	"context"
 	"time"
 
+	example3io "github.com/Kotodian/code-generator/examples/apiserver/apis/example3.io"
+	scheme "github.com/Kotodian/code-generator/examples/apiserver/clientset/internalversion/scheme"
 	v1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	types "k8s.io/apimachinery/pkg/types"
 	watch "k8s.io/apimachinery/pkg/watch"
 	rest "k8s.io/client-go/rest"
-	example3io "k8s.io/code-generator/examples/apiserver/apis/example3.io"
-	scheme "k8s.io/code-generator/examples/apiserver/clientset/internalversion/scheme"
 )
 
 // TestTypesGetter has a method to return a TestTypeInterface.

@@ -22,14 +22,14 @@ import (
 	"context"
 	time "time"
 
+	example2 "github.com/Kotodian/code-generator/examples/apiserver/apis/example2"
+	clientsetinternalversion "github.com/Kotodian/code-generator/examples/apiserver/clientset/internalversion"
+	internalinterfaces "github.com/Kotodian/code-generator/examples/apiserver/informers/internalversion/internalinterfaces"
+	internalversion "github.com/Kotodian/code-generator/examples/apiserver/listers/example2/internalversion"
 	v1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	runtime "k8s.io/apimachinery/pkg/runtime"
 	watch "k8s.io/apimachinery/pkg/watch"
 	cache "k8s.io/client-go/tools/cache"
-	example2 "k8s.io/code-generator/examples/apiserver/apis/example2"
-	clientsetinternalversion "k8s.io/code-generator/examples/apiserver/clientset/internalversion"
-	internalinterfaces "k8s.io/code-generator/examples/apiserver/informers/internalversion/internalinterfaces"
-	internalversion "k8s.io/code-generator/examples/apiserver/listers/example2/internalversion"
 )
 
 // TestTypeInformer provides access to a shared informer and lister for

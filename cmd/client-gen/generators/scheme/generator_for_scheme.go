@@ -23,8 +23,8 @@ import (
 	"path/filepath"
 	"strings"
 
-	"k8s.io/code-generator/cmd/client-gen/path"
-	clientgentypes "k8s.io/code-generator/cmd/client-gen/types"
+	"github.com/Kotodian/code-generator/cmd/client-gen/path"
+	clientgentypes "github.com/Kotodian/code-generator/cmd/client-gen/types"
 	"k8s.io/gengo/generator"
 	"k8s.io/gengo/namer"
 	"k8s.io/gengo/types"

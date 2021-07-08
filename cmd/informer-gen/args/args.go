@@ -20,8 +20,8 @@ import (
 	"fmt"
 	"path"
 
+	codegenutil "github.com/Kotodian/code-generator/pkg/util"
 	"github.com/spf13/pflag"
-	codegenutil "k8s.io/code-generator/pkg/util"
 	"k8s.io/gengo/args"
 )
 

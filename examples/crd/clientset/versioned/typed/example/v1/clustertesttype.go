@@ -22,13 +22,13 @@ import (
 	"context"
 	"time"
 
+	v1 "github.com/Kotodian/code-generator/examples/crd/apis/example/v1"
+	scheme "github.com/Kotodian/code-generator/examples/crd/clientset/versioned/scheme"
 	autoscalingv1 "k8s.io/api/autoscaling/v1"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	types "k8s.io/apimachinery/pkg/types"
 	watch "k8s.io/apimachinery/pkg/watch"
 	rest "k8s.io/client-go/rest"
-	v1 "k8s.io/code-generator/examples/crd/apis/example/v1"
-	scheme "k8s.io/code-generator/examples/crd/clientset/versioned/scheme"
 )
 
 // ClusterTestTypesGetter has a method to return a ClusterTestTypeInterface.

@@ -19,7 +19,7 @@ limitations under the License.
 package v1
 
 import (
-	internalinterfaces "k8s.io/code-generator/examples/HyphenGroup/informers/externalversions/internalinterfaces"
+	internalinterfaces "github.com/Kotodian/code-generator/examples/HyphenGroup/informers/externalversions/internalinterfaces"
 )
 
 // Interface provides access to all the informers in this group version.

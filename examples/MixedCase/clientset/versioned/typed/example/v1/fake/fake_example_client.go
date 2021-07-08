@@ -19,9 +19,9 @@ limitations under the License.
 package fake
 
 import (
+	v1 "github.com/Kotodian/code-generator/examples/MixedCase/clientset/versioned/typed/example/v1"
 	rest "k8s.io/client-go/rest"
 	testing "k8s.io/client-go/testing"
-	v1 "k8s.io/code-generator/examples/MixedCase/clientset/versioned/typed/example/v1"
 )
 
 type FakeExampleV1 struct {

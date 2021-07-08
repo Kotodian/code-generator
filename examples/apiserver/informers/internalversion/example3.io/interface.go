@@ -19,8 +19,8 @@ limitations under the License.
 package example3
 
 import (
-	internalversion "k8s.io/code-generator/examples/apiserver/informers/internalversion/example3.io/internalversion"
-	internalinterfaces "k8s.io/code-generator/examples/apiserver/informers/internalversion/internalinterfaces"
+	internalversion "github.com/Kotodian/code-generator/examples/apiserver/informers/internalversion/example3.io/internalversion"
+	internalinterfaces "github.com/Kotodian/code-generator/examples/apiserver/informers/internalversion/internalinterfaces"
 )
 
 // Interface provides access to each of this group's versions.

@@ -21,7 +21,7 @@ import (
 	"fmt"
 	"strings"
 
-	"k8s.io/code-generator/cmd/client-gen/types"
+	"github.com/Kotodian/code-generator/cmd/client-gen/types"
 )
 
 type gvTypeValue struct {

@@ -36,10 +36,10 @@ import (
 	"flag"
 	"path/filepath"
 
+	generatorargs "github.com/Kotodian/code-generator/cmd/prerelease-lifecycle-gen/args"
+	statusgenerators "github.com/Kotodian/code-generator/cmd/prerelease-lifecycle-gen/prerelease-lifecycle-generators"
+	"github.com/Kotodian/code-generator/pkg/util"
 	"github.com/spf13/pflag"
-	generatorargs "k8s.io/code-generator/cmd/prerelease-lifecycle-gen/args"
-	statusgenerators "k8s.io/code-generator/cmd/prerelease-lifecycle-gen/prerelease-lifecycle-generators"
-	"k8s.io/code-generator/pkg/util"
 	"k8s.io/gengo/args"
 	"k8s.io/klog/v2"
 )

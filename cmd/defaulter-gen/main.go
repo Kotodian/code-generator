@@ -50,8 +50,8 @@ import (
 	"k8s.io/gengo/examples/defaulter-gen/generators"
 	"k8s.io/klog/v2"
 
-	generatorargs "k8s.io/code-generator/cmd/defaulter-gen/args"
-	"k8s.io/code-generator/pkg/util"
+	generatorargs "github.com/Kotodian/code-generator/cmd/defaulter-gen/args"
+	"github.com/Kotodian/code-generator/pkg/util"
 )
 
 func main() {
