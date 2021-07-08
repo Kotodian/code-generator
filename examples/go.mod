@@ -1,6 +1,6 @@
 // This is a submodule to isolate k8s.io/code-generator from k8s.io/{api,apimachinery,client-go} dependencies in generated code
 
-module k8s.io/code-generator/examples
+module github.com/Kotodian/code-generator/examples
 
 go 1.16
 
