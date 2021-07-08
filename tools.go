@@ -21,15 +21,15 @@ limitations under the License.
 package tools
 
 import (
-	_ "k8s.io/code-generator/cmd/client-gen"
-	_ "k8s.io/code-generator/cmd/conversion-gen"
-	_ "k8s.io/code-generator/cmd/deepcopy-gen"
-	_ "k8s.io/code-generator/cmd/defaulter-gen"
-	_ "k8s.io/code-generator/cmd/go-to-protobuf"
-	_ "k8s.io/code-generator/cmd/import-boss"
-	_ "k8s.io/code-generator/cmd/informer-gen"
-	_ "k8s.io/code-generator/cmd/lister-gen"
-	_ "k8s.io/code-generator/cmd/openapi-gen"
-	_ "k8s.io/code-generator/cmd/register-gen"
-	_ "k8s.io/code-generator/cmd/set-gen"
+	_ "github.com/Kotodian/code-generator/cmd/client-gen"
+	_ "github.com/Kotodian/code-generator/cmd/conversion-gen"
+	_ "github.com/Kotodian/code-generator/cmd/deepcopy-gen"
+	_ "github.com/Kotodian/code-generator/cmd/defaulter-gen"
+	_ "github.com/Kotodian/code-generator/cmd/go-to-protobuf-mine"
+	_ "github.com/Kotodian/code-generator/cmd/import-boss"
+	_ "github.com/Kotodian/code-generator/cmd/informer-gen"
+	_ "github.com/Kotodian/code-generator/cmd/lister-gen"
+	_ "github.com/Kotodian/code-generator/cmd/openapi-gen"
+	_ "github.com/Kotodian/code-generator/cmd/register-gen"
+	_ "github.com/Kotodian/code-generator/cmd/set-gen"
 )
